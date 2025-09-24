@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #0e0e0e;
+  color: #e5e5e5;
+  line-height: 1.6;
+  padding: 30px;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.card {
+  background: #1a1a1a;
+  padding: 50px;
+  border-radius: 25px;
+  margin-bottom: 50px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.text-center h1 {
+  font-size: 2;
+}
+
+.badge {
+  background: #333;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 0.8rem;
+  display: inline-block;
+  margin-top: 8px;
+}
+
+.btn-contact {
+  background: transparent;
+  border: 1px solid #3366ff;
+  color: #3366ff;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-contact:hover {
+  background: #3366ff;
+  color: white;
+}
+
+.section-title {
+  font-size: 2.0rem;
+  margin-bottom: 15px;
+  font-weight: 800;
+  position: relative;
+}
+
+.section-title::before {
+  content: "";
+  width: 40px;
+  height: 3px;
+  background: #f1c40f;
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+}
+
+.work-item {
+  display: flex;
+  align-items: center;
+  background: #111;
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.work-item .icon {
+  font-size: 2rem;
+  margin-right: 15px;
+}
+
+.hidden {
+  display: none;
+}
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.contact-item {
+  background: #111;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.icon-box {
+  font-size: 2.0rem;
+  background: #1a1a1a;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.label {
+  font-size: 0.9rem;
+  color: #888;
+  text-transform: uppercase;
+}
+
+.value {
+  font-size: 2rem;
+  font-weight: 500;
+  color: white;
+}
+
+.social-icons {
+  text-align: center;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  color: #999;
+}
+
+.card p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 12px;
+  color: #ddd;
+}
+
+.avatar {
+  width: 170px;
+  height: 200px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
