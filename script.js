@@ -7,3 +7,4 @@ document.addEventListener("DOMContentLoaded", function () {
     btn.textContent = contacts.classList.contains("hidden") ? "Show Contacts" : "Hide Contacts";
   });
 });
+ 

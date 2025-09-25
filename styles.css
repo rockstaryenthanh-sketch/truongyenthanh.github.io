@@ -56,17 +56,18 @@ body {
 }
 
 .btn-contact {
-  background: transparent;
+  background:linear-gradient(135deg,#6e8efb, #a777e3);
   border: 1px solid #3366ff;
   color: #3366ff;
   padding: 8px 16px;
   border-radius: 8px;
   cursor: pointer;
-  transition: 0.3s;
+  margin-top: -200px;
+
 }
 
 .btn-contact:hover {
-  background: #3366ff;
+  background: linear-gradient(135deg,#a777e3, #6e8efb);
   color: white;
 }
 
@@ -160,5 +161,38 @@ body {
   height: 200px;
   border-radius: 8px;
   object-fit: cover;
+}
+
+.card h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  font-weight: 700;
+  color: #f39c12;
+}
+
+.card h3 {
+  font-size: 1.4rem;
+  margin-right: 10px;
+  font-weight: 600;
+  color: #f39c12;
+}
+
+.card ul {
+  list-style: none;
+  padding-left: 20px;
+}
+.like-btn {
+    color: red;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s;
+    margin-top: 20px;
+}
+.card ul li {
+  margin-bottom: 8px;
+  position: relative;
+  padding-left: 15px;
 }
 
